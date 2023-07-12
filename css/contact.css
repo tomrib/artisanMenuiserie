@@ -1,0 +1,70 @@
+body.brown{
+    background-color: #D0A376;
+
+}
+
+main{
+    display: grid;
+    justify-items: center;
+}
+
+h1{
+    font-weight: 100;
+    color: #333232;
+    margin: 3%;
+}
+
+form.form_devis{
+    background-color: #F9EADC;
+    display: grid;
+    grid-template-columns: 50px 1fr 50px  1fr;
+    grid-template-rows: repeat(4,50px) 1fr 50px;
+    column-gap: 25px;
+    row-gap: 20px;
+    width: 60%;
+    padding: 40px;
+    justify-items: center;
+    align-items: center;
+}
+
+input, textarea{
+    background-color: #E8C9AB;
+    width: 80%;
+    padding: 10px;
+    border: none;
+    
+}
+
+textarea{
+    grid-column: 1/-1;
+}
+
+input.big_col{
+    grid-column: 2/-1;
+    justify-self: start;
+    margin-left: 15px;
+    width: 92%;
+}
+
+label{
+    width: 95%;
+    padding: 10px;
+    border-left: 1px solid #E8C9AB;
+    border-bottom: 2px solid #E8C9AB;
+}
+
+button.devis_btn{
+    background-color: #087E8B;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: #087E8B 1px solid;
+    grid-column: 1/-1;
+    width: auto;
+}
+
+button.devis_btn:hover{
+    box-shadow: 1px 2px 3px black;
+    cursor: pointer;
+}
+

@@ -1,0 +1,132 @@
+body {
+    background-color: #D0A376;
+    margin: 0px;
+}
+
+.img_mi {
+    width: 80%;
+    height: 500px;
+}
+
+img {
+    position: absolute;
+    width: 1230px;
+    height: 370px;
+    right: 150px;
+}
+
+.company {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1090px;
+    height: 150px;
+    left: 210px;
+    top: 290px;
+    background: rgba(232, 201, 171, 0.66);
+    text-align: center;
+    border: 1px solid #000;
+}
+
+p {
+    text-align: center;
+    height: 130px;
+}
+
+.img-Works {
+    position: absolute;
+    width: 100%;
+    height: 299px;
+    top: 650px;
+    background: #F9EADC;
+}
+
+.kitchen {
+    width: 23%;
+    height: 299px;
+    left: 10px;
+
+}
+
+.basin {
+    width: 23%;
+    height: 299px;
+    left: 370px;
+}
+
+.stairs {
+    width: 23%;
+    height: 299px;
+    left: 730px;
+}
+
+.tariff {
+    z-index: 2;
+    position: absolute;
+    width: 440px;
+    height: 66px;
+    left: 165px;
+    top: 1108px;
+    background: rgba(232, 201, 171, 0.66);
+    border: 1px solid #000000;
+}
+
+h2 {
+    text-align: center;
+}
+
+.rate {
+    z-index: 1;
+    position: absolute;
+    padding: 30px;
+    left: 118px;
+    top: 1144px;
+    background: rgba(249, 234, 220);
+}
+
+td,
+th {
+    border: 1px solid;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+button {
+    position: absolute;
+    width: 201px;
+    height: 65px;
+    left: 1105px;
+    top: 1209px;
+    background: #087E8B;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.noticc {
+    box-sizing: border-box;
+    position: absolute;
+    width: 769px;
+    height: 69px;
+    left: 335px;
+    top: 1504px;
+    background: rgba(232, 201, 171, 0.66);
+    border: 1px solid #000000;
+}
+
+.Customer {
+    position: absolute;
+    width: 1250px;
+    height: 430px;
+    left: 116px;
+    top: 1544px;
+    background: rgba(249, 234, 220, 0.66);
+    
+}
+
+p.customer_text {
+    width: 80%;
+    height: 50%;
+}

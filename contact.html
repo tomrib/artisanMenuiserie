@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/images/logo.png">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/nav&foot.css">
+    <title>Tony Garcia - Artisant menuisier - contact</title>
+</head>
+
+<body class="brown">
+
+
+    <nav>
+        <figure class="navbar_logo">
+            <a href="accueil.html">
+                <img id="logo" src="assets/images/logo.png" alt="logo, lien vers l'acceuil">
+            </a>
+        </figure>
+        <div class="navbar_item navbar_item_menu col3">
+            <a class="link" href="contact.html" alt="lien vers la page de contact"> Contact </a>
+        </div>
+        <div class="navbar_item navbar_item_menu col4">
+            <a class="link" href="actualites.html" alt="lien vers la page des actualités"> Actualités </a>
+        </div>
+        <div class="navbar_item navbar_item_tel">
+            <a class="link tel" href="tel:+06.00.00.00.00">Tel : 06 . 00 . 00 . 00 . 00 </a>
+        </div>
+    </nav>
+
+    <main>
+        <h1> Demande de devis </h1>
+        <form class="form_devis" action="envoye.html" method="post">
+            <label for="name">Nom</label>
+            <input type="text" name="name" placeholder="Paul">
+
+            <label for="firstname">Prénom</label>
+            <input type="text" name="firstname" placeholder="Dupont">
+
+            <label for="tel">Téléphone</label>
+            <input type="tel" name="tel" id="tel">
+
+            <label for="mail">Email</label>
+            <input type="email" name="mail" id="mail">
+
+            <label for="city">Ville</label>
+            <input type="text" name="city" id="city">
+
+            <label for="cp">Code Postal</label>
+            <input type="text" name="cp" id="cp">
+
+            <label for="adresse">Adresse</label>
+            <input type="text" name="adresse" class="big_col">
+
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Votre demande"></textarea>
+
+            <button class="devis_btn" type="submit"> Envoyer votre devis </button>
+        </form>
+    </main>
+    <footer>
+        <div class="footer_item footer_item_cr">
+            <img class="cr" src="assets/images/copyright.png" alt="copyright" />
+            <p>TTC 2022</p>
+        </div>
+        <div class="footer_item">
+            <p>
+                Horaires: du Lundi au Vendredi <br>
+                8:30 - 18:00
+            </p>
+        </div>
+        <div class="footer_item">
+            <p>
+                TONY GARCIA <br>
+                1800 chemin de mercière <br>
+                60200 Compiègne
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

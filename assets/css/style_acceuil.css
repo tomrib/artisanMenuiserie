@@ -1,0 +1,220 @@
+body {
+    background-color: #D0A376;
+    margin: 0px;
+    height: 100%;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.img_mi{
+    display: flex;
+    justify-content: center;
+}
+
+img.tony_img {
+   width: 100%;
+   height: auto; 
+   z-index: 1;
+}
+
+.company {
+    box-sizing: border-box;
+    background: rgba(232, 201, 171, 0.66);
+    text-align: center;
+    border: 1px solid #000;
+    z-index: 1;
+    position: absolute;
+    width: 60%;
+    margin-top: 28%;
+}
+
+
+p {
+    text-align: center;
+   
+}
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+h2{
+    font-weight: 100;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1300px) {
+    .text_mi {
+      padding-top: 3%;
+    }
+  }
+
+
+.text_mi{
+    margin-top: 6%;
+    margin-bottom: 2%;
+}
+
+.text_mi p{
+    font-size: 18px;
+}
+
+
+section.img-Works {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: 250px;
+    background: #F9EADC;
+}
+
+.bloc_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img.img_middle{
+    max-height: 95%;
+    max-width: 95%;
+}
+
+/* section tarifs */
+
+section.prices{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 300px;
+    grid-template-rows: 400px;
+    margin-top: 5%;
+    width: 80%;
+    justify-items: center;
+    margin: 5% auto;
+    column-gap: 5%;
+    column-gap: 5%;
+}
+
+.price {
+    background: rgb(232 202 171 / 63%);
+    border: 1px solid #000000;
+    width: 40%;
+    grid-column: 1;
+    z-index: 1;
+    grid-row: 1;
+    height: 15%;
+}
+
+.array {
+    background: rgba(249, 234, 220);
+    width: 70%;
+    padding: 5%;
+    grid-column: 1;
+    grid-row: 1;
+    height: 60%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+
+td, th {
+    border: 1px solid;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    display: table;
+    font-size: 18px;
+}
+
+button.ask_quotation {
+    background: #087E8B;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    height: 55px;
+    color: white;
+    font-size: 18px;
+    align-self: center;
+    border: none;
+}
+
+button.ask_quotation:hover{
+    box-shadow: inset 4px 4px 4px rgb(0 0 0 / 25%);
+    cursor: pointer;
+}
+
+a.ask_quot{
+    text-decoration: none;
+    color: white;
+}
+
+/* Section avis */
+
+section.opinions {
+    
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 400px;
+    margin-bottom: 2%;
+}
+
+.opinion_title{
+    background: rgb(232 202 171 / 63%);
+    border: 1px solid #000000;
+    width: 40%;
+    grid-column: 1;
+    z-index: 1;
+    grid-row: 1;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opinions_body{
+    background: rgba(249, 234, 220);
+    width: 70%;
+    grid-column: 1;
+    grid-row: 1;
+    height: 75%;
+    align-self: center;
+    justify-content: center;
+    display: grid;
+    padding: 1%;
+}
+
+.opinion{
+    background: rgba(249, 234, 220, 0.66);   
+    align-self: center;
+    width: 70%;
+    justify-self: center;
+    border-bottom: solid 2px #333232;
+    padding: 10px;
+}
+
+.opinion p{
+    text-align: justify;
+    justify-self: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+
+img.star_img{
+    height: 20px;
+}
+
+.rate{
+    display: inline-grid;
+    align-items: center;
+    grid-auto-flow: column;
+    grid-column-gap: 20px;
+}
